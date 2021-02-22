@@ -1,11 +1,76 @@
 * {
-  box-sizing: border-box;
+  background-color: ghostwhite;
+  max-width: 100%;
 }
 
+.nav-content {
+  width: 200px;
+  height: 150px;
+  display: inline-block;
+}
+.Header-centered {
+  text-align: left;
+  margin-left: 200px;
+  color: #121212;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 19px;
+  position: relative;
+}
+
+.Social-media {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Image-container {
+  cursor: pointer;
+  width: 100%;
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+  margin-left: 200px;
+  margin-top: 20px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.Image-container p {
+  font-size: 17px;
+  margin-top: 0;
+  padding-top: 3px;
+  line-height: 20px;
+}
+
+.Body-content {
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  line-height: 1.7rem;
+}
+
+.Body-content h3 {
+  text-align: left;
+  margin-left: 380px;
+  font-size: 15px;
+  padding-top: 15px;
+}
+
+.Body-content h6 {
+  text-align: left;
+  margin-left: 380px;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 3px;
+}
+.Body-content p {
+  margin-left: 380px;
+  font-size: 20px;
+  font-weight: 150;
+  line-height: 30px;
+}
 .row {
   display: flex;
 }
-
 .column {
   flex: 30%;
   padding: 7px;
