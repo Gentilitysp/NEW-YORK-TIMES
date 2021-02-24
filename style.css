@@ -73,9 +73,10 @@
   cursor: pointer;
   width: 100%;
   vertical-align: top;
-  max-width: 100%;
+  max-width: 1000px;
   height: auto;
-  margin-left: 200px;
+  margin-left: 140px;
+  margin-right: 200px;
   margin-top: 20px;
   padding-bottom: 0;
   margin-bottom: 0;
@@ -114,10 +115,14 @@
   font-weight: 150;
   line-height: 30px;
 }
-.Thanks-link {
-  
-}
 
+.image-grid {
+  width: 1000px;
+  margin-left: 140px;
+  margin-right: 200px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 .row {
   display: flex;
 }
@@ -125,4 +130,9 @@
 .column {
   flex: 22%;
   padding: 5px;
+}
+.side-navigation {
+  float: right;
+  margin: 10px;
+  width: 30%;
 }
